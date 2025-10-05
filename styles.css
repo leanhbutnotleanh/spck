@@ -1,0 +1,209 @@
+@font-face {
+  font-family: Itim;
+  src: url(Itim-Regular.ttf);
+}
+.tabs{
+    font-family: Itim;
+    display: flex;
+    gap: 20px;
+    font-size: large
+}
+.navbar{
+  background-color: rgb(19, 19, 19) !important;
+  box-shadow: 5.5px 11.0px 11.0px hsl(0deg 0% 0% / 0.33);
+}
+.navbar .nav-link{
+  color: white !important;
+}
+
+.navbar .nav-link i{
+  color: white !important;
+}
+.aihoi{
+  color: white !important;
+  font-size: medium;
+  margin-left: 1150px;
+}
+.intro{
+  padding-left: 70px;
+  font-family: Itim;
+  padding-top: 70px;
+}
+.intro2{
+  padding-left: 50px;
+  text-indent: 55px;
+}
+.bg1{
+  height: 446px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: Itim;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  box-shadow: 5.5px 11.0px 11.0px hsl(0deg 0% 0% / 0.33);
+}
+.bg2{
+  font-family: Itim;
+  text-align: center;
+  color: white;
+  background-color: rgb(19, 19, 19);
+  box-shadow: -5.5px -11px 11px hsl(0deg 0% 0% / 0.33);
+  padding-top: 120px;
+  height: 740px;
+}
+.upd{
+  padding-top: 30px;
+}
+.nutngoai{
+  background-color: rgb(220, 26, 40);
+  border: 2px solid rgb(220, 26, 40);
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+    top: 44px;
+    right: 435px;
+  color: white; 
+  text-decoration: underline;
+}
+.nutngoai a{
+  color: white;
+}
+.nutngoai:hover {
+  border: 2px solid rgb(180, 20, 30);
+  background-color: rgb(180, 20, 30);
+}
+.nutngoai:hover a {
+  color: #e0e0e0;
+}
+.vids{
+margin-left: 80px;
+}
+.footer{
+  height: 200px;
+  background-color: rgb(20, 20, 20);
+  font-family: Itim;
+  box-shadow: -5.5px -11px 11px hsl(0deg 0% 0% / 0.33);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.totop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(219, 26, 40);
+    width: 43px;
+    padding: 9px;
+    border-radius: 15px;
+    text-align: center;
+    color: white !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+.card {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  height: 50px;
+}
+.go {
+  background-color: #E50914;
+  color: white;
+  border: none;
+  display: grid;
+  justify-content: center;
+}
+.go:hover {
+  background-color: #b20710;
+  color: #fff;
+}
+.bg1fix{
+  height: 800px;
+  gap: 30px;
+  border: 1px solid red;
+  flex-direction: row;
+  border: 2px solid rgb(20, 20, 20);
+}
+.pop{
+  margin: 0;
+  padding-top: 42px;
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+  font-family: Itim;
+  color: white;
+  height: 61px;
+}
+.pops{
+  justify-content: center;
+  padding-top: 60px;
+  gap: 50px;
+}
+.bg-custom-dark {
+  background-color: rgb(19, 19, 19) !important;
+  height: 100px;
+}
+
+.text-custom-white {
+  color: #fff !important;
+}
+.tieude{
+  padding-bottom: 35px;
+  color: white;
+  background-color: rgb(19, 19, 19);
+  font-family: Itim;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.anh{
+  border-radius: 10px;
+  display: block;
+  margin-left: 32px;
+  width: 120%;
+  height: auto;
+}
+.biggerones{
+  box-shadow: -5.5px -11px 11px hsl(0deg 0% 0% / 0.33),
+              5.5px 11.0px 11.0px hsl(0deg 0% 0% / 0.33);
+  overflow: hidden;
+  background-color: rgb(20, 20, 20);
+  border-radius: 10px;
+
+  display: flex;
+}
+.container{
+  margin-left: 90px;
+  margin-right: 60px;
+  padding: 10px;
+  font-family: Itim;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 405px;
+}
+.bgreal{
+  border: rgb(19, 19, 19) solid 2px;
+  height: 1500px;
+  background-color: rgb(19, 19, 19);
+}
+.yap{
+  font-size: large;
+}
+.trailer{
+margin-left: 229px;
+}
+.sorry{
+  background-color: rgb(19, 19, 19);
+  height: 524px;
+  padding-top: 181px;
+  color: white;
+  font-family: Itim;
+  text-align: center;
+}
+.backtohome{
+ color: white;
+ text-decoration: underline;
+}
